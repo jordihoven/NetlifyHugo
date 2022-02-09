@@ -18,6 +18,7 @@ collections:
           - {label: "Blurb", name: blurb, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Link", name: "link", widget: "text"},
+              {label: "Spotify", name: "spotify", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
           - {label: "Intro", name: intro, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},

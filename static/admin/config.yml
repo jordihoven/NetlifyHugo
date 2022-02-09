@@ -12,20 +12,19 @@ collections:
         label: "Home Page"
         name: "home"
         fields:
+          - {label: "Banner", name: banner, widget: object, fields: [
+              {label: "Banner Image", name: "image", widget: "image"}]}
+          - {label: Hero Image, name: image, widget: image}
+          #socials come here...
+          - {label: "Intro", name: intro, widget: object, fields: [
+              {label: "First Paragraph", name: "first-text", widget: "text"},
+              {label: "Second Paragraph", name: "second-text", widget: "text"}]}
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Image, name: image, widget: image}
           - {label: "Blurb", name: blurb, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Link", name: "link", widget: "text"},
               {label: "Spotify Song", name: "spotify", widget: "file"},
               {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Intro", name: intro, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Products", name: products, widget: list, fields: [
-              {label: "Image", name: "image", widget: "image"},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Values", name: "values", widget: "object", fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
+          - {label: "Footer", name: footer, widget: object, fields: [
+              {label: "Footer Image", name: "image", widget: "image"}]}

@@ -13,24 +13,26 @@
     <link rel="stylesheet" href="{{ "css/style.css" | relURL}}">
   </head>
   <body>
-    <!-- {{ partial "heading" .}} -->
 
-    <div class="intro">
-      <h1>{{ .Title }}</h1>
-      <h2>{{ .Params.subtitle }}</h2>
-      <a class="btn" href="{{ .Params.blurb.link }}">Link Away</a>
-    </div>
-    <img src="{{ .Params.image }}">
-    <div class="spotify">
-      <audio controls src="{{ .Params.blurb.spotify }}"></audio>
-      <!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6Au9UDzjeGFen7qMEDKju7?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/52qTK7CEx1Vso4Evkx6ZCM?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> -->
-    </div>
+    <header>
+      <img src="{{ .Params.banner.image }}" alt="">
+    </header>
 
-    <!-- {{ partial "social" . }} -->
+    <main>
+      <img src="{{ .Params.image }}">
+      <div class="intro">
+        <h1>{{ .Title }}</h1>
+        <h2>{{ .Params.subtitle }}</h2>
+        <a class="btn" href="{{ .Params.blurb.link }}">Link Away</a>
+      </div>
+      <div class="spotify">
+        <audio controls src="{{ .Params.blurb.spotify }}"></audio>
+      </div>
+    </main>
 
-    <!-- {{ .Params.blurb.heading }} -->
+    <footer>
+      <img src="{{ .Params.footer.image }}" alt="">
+    </footer>
 
-    <!-- {{ partial "footer" .}} -->
   </body>
 </html>

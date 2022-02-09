@@ -8,15 +8,11 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Nice. It's looking good already.</h1>
-    <ul>
-      {{ range (where .Pages "Section" "blog") }}
-      <li>
-        <a href="{{ .Permalink }}">
-          {{ .Title }}
-        </a>
-      </li>
-      {{ end }}
-    </ul>
+    <div class="intro">
+      <h1>Hi. This is my name</h1>
+      <h2>Here's something about me.</h2>
+    </div>
+    <!-- Load in social partial -->
+    {{ partial "social" . }}
   </body>
 </html>

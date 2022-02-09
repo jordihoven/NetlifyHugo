@@ -13,16 +13,25 @@
     <link rel="stylesheet" href="{{ "css/style.css" | relURL}}">
   </head>
   <body>
-    {{ partial "heading" .}}
+    <!-- {{ partial "heading" .}} -->
 
-    <img src="{{ .Params.image }}">
-    {{ partial "social" . }}
     <div class="intro">
       <h1>{{ .Title }}</h1>
       <h2>{{ .Params.subtitle }}</h2>
+      <a class="btn" href="#">Link Away</a>
     </div>
-    {{ .Params.blurb.heading }}
-    
-    {{ partial "footer" .}}
+    <img src="{{ .Params.image }}">
+    <!-- Spotify Player -->
+    *spotify player goes here*
+    <div class="spotify">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6Au9UDzjeGFen7qMEDKju7?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/52qTK7CEx1Vso4Evkx6ZCM?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    </div>
+
+    <!-- {{ partial "social" . }} -->
+
+    <!-- {{ .Params.blurb.heading }} -->
+
+    <!-- {{ partial "footer" .}} -->
   </body>
 </html>

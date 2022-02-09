@@ -16,7 +16,8 @@
     </div>
     {{ .Title }}
     {{ .Params.subtitle }}
-    <img src="{{ .Params.image }}" alt="">
+    <img src="{{ .Params.image }}">
+    {{ .Params.blurb.heading }}
 
     <!-- Load in social partial -->
     {{ partial "social" . }}

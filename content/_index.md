@@ -5,6 +5,7 @@ image: /img/avatar.jpg
 blurb:
   heading: Blurb Heading
   text: Text Heading
+  link: https://www.jordihoven.nl
 intro:
   heading: Intro Heading
   text: Intro Text

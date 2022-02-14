@@ -21,7 +21,7 @@ collections:
               {label: "First Paragraph", name: "second-text", widget: "text"},
               {label: "Second Paragraph", name: "third-text", widget: "text"}]}
           - {label: "Songs", name: songs, widget: object, fields: [
-              {label: "Songs Heading", name: "heading", widget: "text"},
+              {label: "Songs Heading", name: "section-heading", widget: "text"},
               {label: "First Song", name: "first-song", widget: "file"},
               {label: "Second Song", name: "second-song", widget: "file"},
               {label: "Third Song", name: "third-song", widget: "file"},

@@ -21,12 +21,16 @@
     <main>
       <img src="{{ .Params.image }}">
       <div class="intro">
-        <h1>{{ .Title }}</h1>
-        <h2>{{ .Params.subtitle }}</h2>
-        <a class="btn" href="{{ .Params.blurb.link }}">Link Away</a>
+        <p>{{ .Params.intro.first-text }}</p>
+        <p>{{ .Params.intro.second-text }}</p>
+        <p>{{ .Params.intro.third-text }}</p>
       </div>
-      <div class="spotify">
-        <audio controls src="{{ .Params.blurb.spotify }}"></audio>
+      <div class="songs">
+        <h1>{{ .Params.songs.heading }}</h1>
+        <audio controls src="{{ .Params.songs.fist-song }}"></audio>
+        <audio controls src="{{ .Params.songs.second-song }}"></audio>
+        <audio controls src="{{ .Params.songs.third-song }}"></audio>
+        <audio controls src="{{ .Params.songs.fourth-song }}"></audio>
       </div>
     </main>
 

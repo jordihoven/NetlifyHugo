@@ -17,9 +17,9 @@ collections:
           - {label: Hero Image, name: image, widget: image}
           #socials come here...
           - {label: "Intro", name: intro, widget: object, fields: [
-              {label: "First Paragraph", name: "first-text", widget: "text"},
-              {label: "Second Paragraph", name: "second-text", widget: "text"}]}
+              {label: "First Paragraph", name: "firstText", widget: "text"},
+              {label: "Second Paragraph", name: "secondText", widget: "text"}]}
           - {label: "Spotify", name: spotify, widget: object, fields: [
-              {label: "Spotify Song", name: "spotify", widget: "file"}]}
+              {label: "Spotify Song", name: "firstSong", widget: "file"}]}
           - {label: "Footer", name: footer, widget: object, fields: [
               {label: "Footer Image", name: "image", widget: "image"}]}

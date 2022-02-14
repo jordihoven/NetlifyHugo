@@ -14,7 +14,7 @@ intro:
   text: Intro Text
   first-text: Here's the first paragraph.
   second-text: And here's the second. Wow!
-  firstText: Eerste paragraaf
+  firstText: Eerste paragraaf (via incognito @ safari)
   secondText: Tweede paragraaf
   thirdText: Derde paragraaf
 subtitle: Homepage Subtitle

@@ -21,6 +21,9 @@ collections:
               {label: "Second Paragraph", name: "secondText", widget: "text"},
               {label: "Third Paragraph", name: "thirdText", widget: "text"}]}
           - {label: "Songs", name: songs, widget: object, fields: [
-              {label: "First Song", name: "firstSong", widget: "file"}]}
+              {label: "First Song", name: "firstSong", widget: "file"},
+              {label: "Second Song", name: "secondSong", widget: "file"},
+              {label: "Third Song", name: "thirdSong", widget: "file"},
+              {label: "Fourth Song", name: "fourthSong", widget: "file"}]}
           - {label: "Footer", name: footer, widget: object, fields: [
               {label: "Footer Image", name: "image", widget: "image"}]}

@@ -16,6 +16,11 @@ collections:
               {label: "Banner Image", name: "image", widget: "image"}]}
           - {label: Hero Image, name: image, widget: image}
           #socials come here...
+          - {label: "Socials", name: socials, widget: object, fields: [
+              {label: "Link naar Instagram", name: "instagram", widget: "text"},
+              {label: "Link naar Facebook", name: "facebook", widget: "text"},
+              {label: "Link naar Spotify", name: "spotify", widget: "text"},
+              {label: "Mailto link (google dit)", name: "mail", widget: "text"}]}
           - {label: "Intro", name: intro, widget: object, fields: [
               {label: "First Paragraph", name: "firstText", widget: "text"},
               {label: "Second Paragraph", name: "secondText", widget: "text"},

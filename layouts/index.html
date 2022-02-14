@@ -20,6 +20,12 @@
 
     <main>
       <img src="{{ .Params.image }}">
+      <div class="socials">
+        <a target="_blank" href="{{ .Params.socials.instagram }}">Instagram</a>
+        <a target="_blank" href="{{ .Params.socials.facebook }}">Facebook</a>
+        <a target="_blank" href="{{ .Params.socials.spotify }}">Spotify</a>
+        <a target="_blank" href="{{ .Params.socials.mail }}">Mail</a>
+      </div>
       <div class="intro">
         <p>{{ .Params.intro.firstText }}</p>
         <p>{{ .Params.intro.secondText }}</p>

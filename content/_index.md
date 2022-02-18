@@ -5,10 +5,10 @@ values:
 banner:
   image: /img/group-6.png
 socials:
-  instagram: https://www.instagram.com/jordidotdesign
-  facebook: https://www.facebook.com/drinkzNL
-  spotify: https://open.spotify.com/artist/1tY0zepjDuUX6rT5Q6SGrM
-  mail: mailto:gebruikersnaam@emailadres.nl
+  instagram: https://www.instagram.com/hencethebravery
+  facebook: https://www.facebook.com/hencethebravery
+  spotify: https://open.spotify.com/artist/1tY0zepjDuUX6rT5Q6SGrM?si=y15KO-AuSDOoCtC6T-DLKg
+  mail: mailto:info@hencethebravery.com
 intro:
   heading: Intro Heading
   text: Intro Text

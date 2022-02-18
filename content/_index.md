@@ -24,7 +24,7 @@ blurb:
   text: Text Heading
   link: https://www.jordihoven.nl
   spotify: /img/some-song.mp3
-image: /img/avatar.jpg
+image: /img/thb27.01-57-gamma-1.8-positive.png
 songs:
   firstSong: /img/some-song.mp3
   secondSong: /img/some-song.mp3

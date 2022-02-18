@@ -34,5 +34,5 @@ songs:
   thirdSong: /img/some-song.mp3
   fourthSong: /img/some-song.mp3
 footer:
-  image: /img/1024x1024-fattoi-3.jpg
+  image: /img/group-1.png
 ---

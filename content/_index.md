@@ -3,7 +3,7 @@ values:
   heading: Values Heading
   text: Values Text
 banner:
-  image: /img/ashley-byrd-d422b6yhiqa-unsplash.jpg
+  image: /img/group-6.png
 socials:
   instagram: https://www.instagram.com/jordidotdesign
   facebook: https://www.facebook.com/drinkzNL

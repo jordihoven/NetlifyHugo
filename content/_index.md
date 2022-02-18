@@ -14,9 +14,12 @@ intro:
   text: Intro Text
   first-text: Here's the first paragraph.
   second-text: And here's the second. Wow!
-  firstText: Eerste paragraaf (via incognito @ safari)
-  secondText: Tweede paragraaf
-  thirdText: Derde paragraaf
+  firstText: "Having started as a coverband, Hence the Bravery is trying to break
+    through the everlasting boredom brought on to us by pandemic lockdowns and
+    spiritless news stories by creating relatable music to promote the
+    importance of the youth in our society. "
+  secondText: “HTB” will be releasing their first EP in the spring of 2022.
+  thirdText: punk - poppunk - grunge - rock - alternative
 subtitle: Homepage Subtitle
 title: Homepage Title
 blurb:

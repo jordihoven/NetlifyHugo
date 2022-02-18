@@ -29,7 +29,7 @@ blurb:
   spotify: /img/some-song.mp3
 image: /img/thb27.01-57-gamma-1.8-positive.png
 songs:
-  firstSong: /img/some-song.mp3
+  firstSong: /img/we-don-t-wear-crowns.wav
   secondSong: /img/some-song.mp3
   thirdSong: /img/some-song.mp3
   fourthSong: /img/some-song.mp3
